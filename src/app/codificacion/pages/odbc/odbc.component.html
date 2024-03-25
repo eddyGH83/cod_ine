@@ -1,0 +1,9 @@
+<h5>Popup</h5>
+<div class="p-fluid p-grid p-formgrid">
+
+    <div class="p-field p-col-12 p-md-4">
+        <label for="range">Range</label>
+        <p-calendar [(ngModel)]="rangeDates" selectionMode="range" [readonlyInput]="true" inputId="range" [locale]="es" (onClose)="fechaSeleccionada()" dateFormat="dd/mm/yy" ></p-calendar>
+    </div>
+
+</div>
